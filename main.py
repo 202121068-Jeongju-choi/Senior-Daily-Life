@@ -13,6 +13,7 @@ if choice == "소식":
     
     # 소식 화면에 이미지 추가
     image_url = "https://raw.githubusercontent.com/202121068-Jeongju-choi/Senior-Daily-Life/8f4ab7cfc78808c316ac1f232d7b501a3674588a/%EC%BA%A1%EC%B2%98.PNG"
+    caption_text = ""
     st.image(image_url, caption=caption_text, use_column_width=True)
 
 # 오늘의 건강 화면
