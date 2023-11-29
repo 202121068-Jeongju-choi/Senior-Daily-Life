@@ -16,8 +16,10 @@ if choice == "소식":
     caption_text = ""
     st.image(image_url, caption=caption_text, use_column_width=True)
 
-    image_url = ""
-
+    image_url = "https://github.com/202121068-Jeongju-choi/Senior-Daily-Life/blob/main/%EC%BA%A1%EC%B2%982.PNG?raw=true"
+    caption_text = ""
+    st.image(image_url, caption=caption_text, use_column_width=True)
+    
 # 오늘의 건강 화면
 elif choice == "오늘의 건강":
     st.header("오늘의 건강")
