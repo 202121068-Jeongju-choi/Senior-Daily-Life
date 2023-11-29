@@ -4,24 +4,24 @@ import streamlit as st
 st.title("노인 복지 웹사이트")
 
 # 메뉴 선택
-menu = ["홈", "복지정보", "이벤트", "연락처"]
+menu = ["소식", "오늘의 건강", "이야기 나누기", "우리 가족"]
 choice = st.sidebar.selectbox("메뉴", menu)
 
 # 홈 화면
-if choice == "홈":
-    st.write("노인 복지 웹사이트에 오신 것을 환영합니다! 여기에서 다양한 정보를 얻을 수 있습니다.")
+if choice == "소식":
+    st.write("환영합니다! 오늘도 행복한 하루가 되길 응원합니다.")
 
 # 복지정보 화면
-elif choice == "복지정보":
-    st.header("복지정보")
-    st.write("여기에 복지 정보를 표시합니다.")
+elif choice == "오늘의 건강":
+    st.header("오늘의 건강")
+    st.write("오늘 당신은 어떤가요? 어디 아프지는 않으신가요?")
 
 # 이벤트 화면
-elif choice == "이벤트":
-    st.header("이벤트")
-    st.write("다가오는 이벤트 및 행사 정보를 표시합니다.")
+elif choice == "이야기 나누기":
+    st.header("이야기 나누기")
+    st.write("혼자 힘드신 부분은, 함께 해결할 수 있어요.")
 
 # 연락처 화면
-elif choice == "연락처":
-    st.header("연락처")
-    st.write("문의 및 연락처 정보를 표시합니다.")
+elif choice == "우리 가족":
+    st.header("우리 가족")
+    st.write("오늘 우리 가족, 손주 손녀는 잘 지내고 있을까요?")
