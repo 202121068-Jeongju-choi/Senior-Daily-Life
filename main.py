@@ -16,6 +16,8 @@ if choice == "소식":
     caption_text = ""
     st.image(image_url, caption=caption_text, use_column_width=True)
 
+    image_url = ""
+
 # 오늘의 건강 화면
 elif choice == "오늘의 건강":
     st.header("오늘의 건강")
