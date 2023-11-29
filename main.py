@@ -16,7 +16,7 @@ if choice == "소식":
     caption_text = ""
     st.image(image_url, caption=caption_text, use_column_width=True)
 
-    image_url = "https://github.com/202121068-Jeongju-choi/Senior-Daily-Life/blob/main/%EC%BA%A1%EC%B2%982.PNG?raw=true"
+    image_url = "https://raw.githubusercontent.com/202121068-Jeongju-choi/Senior-Daily-Life/main/캡처2.PNG"
     caption_text = ""
     st.image(image_url, caption=caption_text, use_column_width=True)
     
