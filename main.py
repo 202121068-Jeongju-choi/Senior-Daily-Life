@@ -26,12 +26,23 @@ if choice == "소식":
 elif choice == "오늘의 건강":
     st.header("오늘의 건강")
     st.write("오늘 당신은 어떤가요? 어디 아프지는 않으신가요?")
+    st.write("기기를 패드에 접촉시키면 자동으로 정보를 읽어냅니다. 간단하게 사용해보세요!")
 
     # 임의의 데이터 생성
     data = np.random.randn(30).cumsum()
 
     # 선 그래프 추가
     st.line_chart(data)
+
+ st.write("다음은 근 30일 간의 평균 혈압 수치입니다. 건강 기준은 3 입니다.")
+
+ # 임의의 데이터 생성
+    data = np.random.randn(30).cumsum()
+
+    # 선 그래프 추가
+    st.line_chart(data)
+
+st.write("다음은 근 30일 간의 평균 혈당 수치입니다. 건강 기준은 3 입니다.")
 
 # 이야기 나누기 화면
 elif choice == "이야기 나누기":
