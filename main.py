@@ -45,7 +45,9 @@ elif choice == "이야기 나누기":
     st.header("이야기 나누기")
     st.write("혼자 힘드신 부분은, 함께 해결할 수 있어요.")
 
-image_url = "https://raw.githubusercontent.com/202121068-Jeongju-choi/Senior-Daily-Life/전문가 상담.PNG"
+    image_url = "https://raw.githubusercontent.com/202121068-Jeongju-choi/Senior-Daily-Life/전문가 상담.PNG"
+    caption_text = ""
+    st.image(image_url, caption=caption_text, use_column_width=True)
 
 # 우리 가족 화면
 elif choice == "우리 가족":
