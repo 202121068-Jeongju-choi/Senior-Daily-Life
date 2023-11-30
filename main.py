@@ -25,6 +25,13 @@ elif choice == "오늘의 건강":
     st.header("오늘의 건강")
     st.write("오늘 당신은 어떤가요? 어디 아프지는 않으신가요?")
 
+
+    # 임의의 데이터 생성
+    data = np.random.randn(30).cumsum()
+
+    # 선 그래프 추가
+    st.line_chart(data)
+
 # 이야기 나누기 화면
 elif choice == "이야기 나누기":
     st.header("이야기 나누기")
