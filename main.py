@@ -1,4 +1,5 @@
 import streamlit as st
+import numpy as np
 
 # 페이지 제목
 st.title("도담도담 - 은퇴 후의 삶을 더욱 윤택하게.")
@@ -24,7 +25,6 @@ if choice == "소식":
 elif choice == "오늘의 건강":
     st.header("오늘의 건강")
     st.write("오늘 당신은 어떤가요? 어디 아프지는 않으신가요?")
-
 
     # 임의의 데이터 생성
     data = np.random.randn(30).cumsum()
