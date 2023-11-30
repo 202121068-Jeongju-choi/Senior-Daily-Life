@@ -14,7 +14,6 @@ if choice == "소식":
     st.write("환영합니다! 오늘도 행복한 하루가 되길 응원합니다.")
     st.write("지역 주민들의 일상을 공유합니다. 메뉴는 왼쪽 상단에 있습니다.")
     
-    # 소식 화면에 이미지 추가
     image_url = "https://raw.githubusercontent.com/202121068-Jeongju-choi/Senior-Daily-Life/8f4ab7cfc78808c316ac1f232d7b501a3674588a/%EC%BA%A1%EC%B2%98.PNG"
     caption_text = ""
     st.image(image_url, caption=caption_text, use_column_width=True)
@@ -29,16 +28,9 @@ elif choice == "오늘의 건강":
     st.write("오늘 당신은 어떤가요? 어디 아프지는 않으신가요?")
     st.write("기기를 패드에 접촉시키면 자동으로 정보를 읽어냅니다. 간단하게 사용해보세요!")
 
-    # 임의의 데이터 생성
     data = np.random.randn(30).cumsum()
-
-    # 선 그래프 추가
     st.line_chart(data)
-
- # 임의의 데이터 생성
     data = np.random.randn(30).cumsum()
-
-    # 선 그래프 추가
     st.line_chart(data)
 
 # 이야기 나누기 화면
