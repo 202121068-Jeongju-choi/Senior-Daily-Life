@@ -55,3 +55,11 @@ elif choice == "이야기 나누기":
 elif choice == "우리 가족":
     st.header("우리 가족")
     st.write("오늘 우리 가족, 손주 손녀는 잘 지내고 있을까요?")
+
+    image_url = "https://raw.githubusercontent.com/202121068-Jeongju-choi/Senior-Daily-Life/main/hocul.PNG"
+    caption_text = ""
+    st.image(image_url, caption=caption_text, use_column_width=True)
+
+    image_url = "https://raw.githubusercontent.com/202121068-Jeongju-choi/Senior-Daily-Life/main/sosik.PNG"
+    caption_text = ""
+    st.image(image_url, caption=caption_text, use_column_width=True)
