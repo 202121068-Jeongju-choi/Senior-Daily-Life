@@ -12,6 +12,7 @@ choice = st.sidebar.selectbox("메뉴", menu)
 # 소식 화면
 if choice == "소식":
     st.write("환영합니다! 오늘도 행복한 하루가 되길 응원합니다.")
+    st.write("지역 주민들의 일상을 공유합니다. 메뉴는 왼쪽 상단에 있습니다.")
     
     # 소식 화면에 이미지 추가
     image_url = "https://raw.githubusercontent.com/202121068-Jeongju-choi/Senior-Daily-Life/8f4ab7cfc78808c316ac1f232d7b501a3674588a/%EC%BA%A1%EC%B2%98.PNG"
