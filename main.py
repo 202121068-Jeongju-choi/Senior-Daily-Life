@@ -34,14 +34,12 @@ elif choice == "오늘의 건강":
 
     # 선 그래프 추가
     st.line_chart(data)
-    caption_text = "평균 혈당 수치"
 
  # 임의의 데이터 생성
     data = np.random.randn(30).cumsum()
 
     # 선 그래프 추가
     st.line_chart(data)
-    caption_text = "평균 혈압 수치"
 
 # 이야기 나누기 화면
 elif choice == "이야기 나누기":
