@@ -44,6 +44,7 @@ elif choice == "오늘의 건강":
 elif choice == "이야기 나누기":
     st.header("이야기 나누기")
     st.write("혼자 힘드신 부분은, 함께 해결할 수 있어요.")
+    st.write("버튼을 누르면 화상으로 편리하게 연결됩니다.")
 
     image_url = "https://raw.githubusercontent.com/202121068-Jeongju-choi/Senior-Daily-Life/main/sangdam.PNG"
     caption_text = ""
