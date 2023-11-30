@@ -35,7 +35,7 @@ elif choice == "오늘의 건강":
     # 선 그래프 추가
     st.line_chart(data)
 
- st.write("다음은 근 30일 간의 평균 혈압 수치입니다.")
+ st.write("다음은 평균 혈압 수치입니다.")
 
  # 임의의 데이터 생성
     data = np.random.randn(30).cumsum()
@@ -43,7 +43,7 @@ elif choice == "오늘의 건강":
     # 선 그래프 추가
     st.line_chart(data)
 
-st.write("다음은 근 30일 간의 평균 혈당 수치입니다.")
+st.write("다음은 평균 혈당 수치입니다.")
 
 # 이야기 나누기 화면
 elif choice == "이야기 나누기":
